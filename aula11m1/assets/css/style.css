@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: linear-gradient(rgb(0, 10, 19), rgb(1, 0, 24));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  height: 230px;
+  width: 410px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  border: 1px solid rgb(59, 59, 59);
+  margin: 1.5px 1.5px;
+}
+.conteudoEscrito {
+  text-align: center;
+  color: aliceblue;
+  width: 427px;
+  height: 37px;
+  margin: 10px;
+}
+.wrapperVideos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.linkPlaylist {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: large;
+}
